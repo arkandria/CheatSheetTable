@@ -1,6 +1,11 @@
+html {
+    min-height: 100%;
+}
+
 body {
-    background-color: whitesmoke;
+    background-image: linear-gradient(to bottom, whitesmoke , grey, whitesmoke);;
     font-family: Cambria;
+    min-height: 100%;
 }
 
 h1 {
@@ -18,7 +23,7 @@ table {
 }
 
 thead {
-    background-color: #f8b500;
+    background-image: linear-gradient(to bottom, #f8b500, #f8b500, #dfa402);
     text-align: center;
     font-weight: bold;
     font-size: larger;
